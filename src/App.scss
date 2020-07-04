@@ -1,0 +1,204 @@
+@import "~bootstrap/scss/bootstrap.scss";
+@import "./fonts/Varela_Round//VarelaRound-Regular.ttf";
+
+@font-face {
+  font-family: "VarelaRound-Regular";
+  src: local("VarelaRound-Regular"),
+    url(./fonts/Varela_Round/VarelaRound-Regular.ttf) format("truetype");
+}
+// pallete:
+$dark: #2c0703;
+$primary: #7a1130;
+$secondary: #72705b;
+$alternative: #d6e3f8;
+$light: #e4bb97;
+$background: #fef5ef;
+$text: #868686;
+$imageSize: 160px;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+html,
+body {
+  background: #fff;
+  font-family: "VarelaRound-Regular", "Reboto", Helvetica, Arial, sans-serif;
+  color: #222;
+}
+
+* {
+  font-size: 11pt;
+  font-family: "VarelaRound-Regular", "Reboto", helvetica, arial, sans-serif;
+  -webkit-print-color-adjust: exact !important;
+}
+a {
+  text-decoration: none;
+  color: #e4bb97;
+}
+.App {
+  width: 594pt;
+  height: 841pt;
+  background-color: $background;
+  padding: 0.25em 14px;
+  margin: auto;
+  border: solid 1px $alternative;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+// header
+.header {
+  color: $primary;
+  font-weight: 400;
+  height: 10%;
+  width: 90%;
+  margin: auto;
+  border-color: $secondary;
+  border-width: 0 0 4px 0;
+  border-style: solid;
+  border-radius: 4px 14px 4px 4px;
+  padding: 1em 3em;
+  box-sizing: border-box;
+  position: relative;
+  .name {
+    margin: 0em;
+    font-size: 2em;
+    text-transform: capitalize;
+  }
+  .title {
+    margin: 0;
+    font-size: 1.6em;
+    text-transform: capitalize;
+  }
+  .image {
+    width: $imageSize;
+    height: $imageSize;
+    border-radius: 50%;
+    background: cover;
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    transform: translate(50%, -50%);
+    padding: 0.1em;
+    background-color: #fff;
+    border: 1px solid $secondary;
+  }
+}
+.contact {
+  svg {
+    margin-right: 1em;
+    color: $secondary;
+  }
+  p {
+    margin-bottom: .1em;
+    color: $dark;
+    display: flex;
+    align-items: center;
+  }
+}
+
+// timeline
+//https://codepen.io/cplepage/pen/EozVXL
+.circle {
+  font-weight: bold;
+  //padding: 14px 20px;
+  border-radius: 50%;
+  background-color: $primary;
+  color: $secondary;
+  height: 50px;
+  width: 50px;
+  z-index: 2;
+  position: relative;
+  svg {
+    position: absolute;
+    color: white;
+    font-size: 1.6em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.how-it-works.row {
+  display: flex;
+  position: relative;
+  .col-2 {
+    display: inline-flex;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+    &::after {
+      content: "";
+      position: absolute;
+      border-left: 3px solid $primary;
+      z-index: 1;
+    }
+  }
+  .col-2.bottom {
+    &::after {
+      height: 50%;
+      left: 50%;
+      top: 50%;
+    }
+  }
+  .col-2.full {
+    &::after {
+      height: 100%;
+      left: calc(50% - 3px);
+    }
+  }
+  .col-2.top {
+    &::after {
+      height: 50%;
+      left: 50%;
+      top: 0;
+    }
+  }
+}
+.timeline {
+  div {
+    padding: 0;
+    height: 40px;
+  }
+  hr {
+    border-top: 3px solid $primary;
+    margin: 0;
+    top: 17px;
+    position: relative;
+  }
+  .col-2 {
+    display: flex;
+    overflow: hidden;
+  }
+  .corner {
+    border: 3px solid $primary;
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+  }
+  .top-right {
+    left: 50%;
+    top: -50%;
+  }
+  .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+  }
+  .top-left {
+    left: -50%;
+    top: -50%;
+  }
+  .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
+  }
+}
