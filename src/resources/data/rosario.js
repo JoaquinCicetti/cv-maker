@@ -1,7 +1,9 @@
-export { default as ProfileImage } from './rosario.png'
+import ProfileImage from './rosario.png'
 const data = {
+  ProfileImage,
   name: 'Rosario Aita',
   title: 'Translator',
+  abstract: 'Hi! My name is Rosario. I am a highly hardworking and motivated translator with strong work ethic. I love my profession because it feeds my curious side and at the same time, allows me to explore new skills and to deepen knowledge already acquired. I am in constant evolution and committed to achieving efficienty and integrity.',
   mail: ['rosario@aimatranslations.com', 'rosarioaita18@gmail.com'],
   phone: {
     number: '+542477336855',
@@ -28,17 +30,9 @@ const data = {
     {
       title: 'Graduate course in spanish proofreading',
       description: 'Fundación Litterae'
-    },
-    {
-      title: 'Intensive English course (C1.II according to CEF)',
-      description: 'Boston University (Campus), EEUU.'
     }
   ],
   experience: [
-    {
-      title: 'Volunteering at',
-      description: '...'
-    },
     {
       title: 'Owner at',
       description: 'Aima translations'

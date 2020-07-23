@@ -44,10 +44,6 @@ const data = {
   ],
   experience: [
     {
-      title: 'Volunteering at',
-      description: '...'
-    },
-    {
       title: 'Owner at',
       description: 'Aima translations'
     }

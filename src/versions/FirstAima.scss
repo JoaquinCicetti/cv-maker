@@ -39,7 +39,6 @@ section {
 }
 
 @media print {
-
   html,
   body {
     width: 210mm;
@@ -55,6 +54,9 @@ section {
     box-shadow: initial;
     background: initial;
     page-break-after: always;
+    a {
+      text-decoration: none;
+    }
   }
 }
 
@@ -97,7 +99,7 @@ ul {
   border: solid 1px $alternative;
   border-radius: 4px;
   box-sizing: border-box;
-  padding: 0 0 150px;
+  padding: 0 0 250px;
   overflow-x: hidden;
 }
 
@@ -113,7 +115,7 @@ ul {
   border-color: black;
 
   &::before {
-    content: '';
+    content: "";
     top: 50%;
     left: 50%;
     width: 107%;
@@ -124,7 +126,7 @@ ul {
   }
 
   &::after {
-    content: '';
+    content: "";
     top: 50%;
     left: 50%;
     width: 107%;
@@ -138,7 +140,7 @@ ul {
     width: $imageSize;
     height: $imageSize;
     border-radius: 50%;
-    background: cover;
+    object-fit: cover;
     top: 10%;
     left: 50%;
     transform: translate(-50%, 0%);
@@ -157,7 +159,7 @@ ul {
     padding: 1em;
 
     svg {
-      margin-right: .5em;
+      margin-right: 0.5em;
       color: $secondary;
       color: white;
     }
@@ -187,7 +189,7 @@ ul {
   flex-direction: column;
 
   .name {
-    margin: .5em 0 .2em;
+    margin: 0.5em 0 0.2em;
     font-size: 1.8em;
     text-transform: uppercase;
     font-weight: bold;
@@ -199,12 +201,12 @@ ul {
     text-transform: capitalize;
     border: 1px solid $dark;
     font-weight: bold;
-    padding: .2em .6em;
+    padding: 0.2em 0.6em;
     border-radius: 4px;
     position: relative;
 
     &::before {
-      content: '';
+      content: "";
       left: -75px;
       width: 75px;
       height: 1px;
@@ -214,7 +216,7 @@ ul {
     }
 
     &::after {
-      content: '';
+      content: "";
       right: -75px;
       width: 75px;
       height: 1px;
