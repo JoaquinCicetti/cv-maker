@@ -10,7 +10,7 @@ const data = {
     label: '+54 9 2477336855'
   },
   linkedIn: {
-    url: 'http://linkedin.com/in/rosario-aita-287122164',
+    url: 'https://www.linkedin.com/in/rosario-aita-287122164/',
     label: 'Rosario Aita'
   },
   skype: {
