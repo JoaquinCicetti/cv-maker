@@ -2,13 +2,10 @@ import React from 'react'
 
 import {
   FaUserGraduate as UniversityIcon,
-  FaInfo as ContactIcon,
   FaPhoneAlt as PhoneIcon,
   FaEnvelope as MailIcon,
   FaLinkedin as LinkedInIcon,
-  FaSkype as SkypeIcon,
   FaClock as TimezoneIcon,
-  FaGlobeAmericas as NationalityIcon,
   FaQuoteLeft as QuotesIcon
 } from 'react-icons/fa'
 import { MdWork as WorkIcon, MdComputer as SoftwareIcon } from 'react-icons/md'
@@ -22,10 +19,10 @@ import Aati from 'resources/img/aati-logo.png'
 import Aima from 'resources/img/logo.png'
 
 // data
-import { paula } from 'resources/data'
+import { rosario } from 'resources/data'
 
 function FirstAima () {
-  const { ProfileImage, ...data } = paula
+  const { ProfileImage, ...data } = rosario
   return (
     <div>
       <header className='header'>
