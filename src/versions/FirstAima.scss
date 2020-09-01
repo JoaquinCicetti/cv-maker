@@ -70,7 +70,7 @@ body {
 }
 
 * {
-  font-size: 12pt;
+  font-size: 11.8pt;
   font-family: "Monserrat-Regular", "Reboto", helvetica, arial, sans-serif;
   -webkit-print-color-adjust: exact !important;
 }
@@ -229,6 +229,7 @@ ul {
 
 .abstract {
   font-style: italic;
+  margin-bottom: 0rem;
 }
 
 // timeline
@@ -350,4 +351,11 @@ ul {
   right: 0;
   top: 0;
   transform: translate(0%, -45%);
+}
+
+#data-editor{
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 1em;
 }

@@ -3,7 +3,7 @@ const data = {
   ProfileImage,
   name: 'Rosario Aita',
   title: 'Translator',
-  abstract: 'Hi! My name is Rosario. I am a highly hardworking and motivated translator with strong work ethic. I love my profession because it feeds my curious side and at the same time, allows me to explore new skills and to deepen knowledge already acquired. I am in constant evolution and committed to achieving efficienty and integrity.',
+  abstract: 'Hi! My name is Rosario. I am a highly hardworking and motivated translator with strong work ethic. I love my profession because it feeds my curious side and at the same time, allows me to explore new skills and to deepen knowledge already acquired. I am in constant evolution and committed to achieving efficiency and integrity.',
   mail: ['rosario@aimatranslations.com', 'rosarioaita18@gmail.com'],
   phone: {
     number: '+542477336855',
@@ -21,15 +21,27 @@ const data = {
   timezone: 'Buenos Aires (GMT-3)',
   nationality: 'Argentinian',
   services: ['Translations', 'Editing', 'Proofreading'],
-  specializations: ['Medical', 'Business', 'Aviation', 'Literary'],
+  specializations: ['Medical', 'Business', 'Aviation'],
   education: [
     {
-      title: 'Graduated as Literary and Technical-scientific Translator',
-      description: 'Instituto de Educación Superior Nro 28 Olga Cossettini.'
+      title: 'SDL Trados, Translation Memories, Proofing & other CAT Tools',
+      description: 'Online training, CAT about'
     },
     {
-      title: 'Graduate course in spanish proofreading',
-      description: 'Fundación Litterae'
+      title: 'Revisión y Lenguaje Claro Ingles<>Español',
+      description: 'Online training, AATI'
+    },
+    {
+      title: 'Translation-Oriented Computer Training Programme',
+      description: 'Online training, AATI'
+    },
+    {
+      title: 'Computer Training Day for Translators',
+      description: 'Online training, Juan Macarlupu'
+    },
+    {
+      title: 'Graduated as Technical-Scientific and Literary Translator',
+      description: 'Instituto de Educación Superior Nro 28 Olga Cossettini.'
     }
   ],
   experience: [
