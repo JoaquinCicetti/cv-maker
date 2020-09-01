@@ -39,6 +39,10 @@ section {
 }
 
 @media print {
+  #data-editor{
+    display: none;
+  }
+
   html,
   body {
     width: 210mm;
