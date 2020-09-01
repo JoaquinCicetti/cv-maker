@@ -19,7 +19,6 @@ import Aima from 'resources/img/logo.png'
 
 // data
 import resourceData from 'resources/data'
-import DataEditor from 'DataEditor'
 
 function FirstAima () {
   const [source, setSource] = useState(resourceData.get('paula'))
@@ -110,17 +109,17 @@ function FirstAima () {
           <div className='row align-items-center justify-content-end how-it-works'>
             <div className='col-8 p-0 m-0 d-flex justify-content-between'>
               <div className='col-6'>
-                <h5>Services</h5>
+                <h5>{data.services.title}</h5>
                 <ul className='pl-0'>
-                  {data.services.map(service => {
+                  {data.services.data.map(service => {
                     return <li key={`service-${service}`}>{service}</li>
                   })}
                 </ul>
               </div>
               <div className='col-6'>
-                <h5>Specializations</h5>
+                <h5>{data.specializations.title}</h5>
                 <ul className='pl-0'>
-                  {data.specializations.map(specialization => {
+                  {data.specializations.data.map(specialization => {
                     return (
                       <li key={`specialization-${specialization}`}>
                         {specialization}
@@ -155,9 +154,9 @@ function FirstAima () {
               </div>
             </div>
             <div className='col-8 p-0'>
-              <h5>Education</h5>
+              <h5>{data.education.title}</h5>
               <ul className='pl-0'>
-                {data.education.map(({ title, description }, i) => {
+                {data.education.data.map(({ title, description }, i) => {
                   return (
                     <li key={`education-${i}`}>
                       <b>{title}</b>
@@ -183,9 +182,9 @@ function FirstAima () {
           <div className='row align-items-center justify-content-end how-it-works'>
             <div className='col-8  p-0 d-flex'>
               <div className='col-6'>
-                <h5>Work experience</h5>
+                <h5>{data.experience.title}</h5>
                 <ul className='pl-0'>
-                  {data.experience.map(({ title, description }, i) => {
+                  {data.experience.data.map(({ title, description }, i) => {
                     return (
                       <li key={`experience-${i}`}>
                         <b>{title}</b>
@@ -200,14 +199,14 @@ function FirstAima () {
                         target='_blank'
                         rel='noopener noreferrer'
                       >
-                      LinkedIn profile
+                        {data.linkedIn.description}
                       </a>
                     </b>
                   </li>
                 </ul>
               </div>
               <div className='col-6'>
-                <h5>Membership</h5>
+                <h5>{data.membership.title}</h5>
                 <img src={Aati} alt='aati' width={110} />
               </div>
             </div>
@@ -237,9 +236,9 @@ function FirstAima () {
               </div>
             </div>
             <div className='col-8 p-0'>
-              <h5>Software</h5>
+              <h5>{data.software.title}</h5>
               <ul className='pl-0'>
-                {data.software.map(({ title, description }, i) => {
+                {data.software.data.map(({ title, description }, i) => {
                   return (
                     <li key={`software-${i}`}>
                       <b>{title}</b>
@@ -269,8 +268,6 @@ function FirstAima () {
           <option value='rosario'>Rosario</option>
           <option value='rosario-esp'>Rosario Esp</option>
         </select>
-
-        <DataEditor data={source} />
       </div>
     </div>
   )
