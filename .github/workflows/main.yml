@@ -31,9 +31,5 @@ jobs:
       - name: build
         run: yarn build
 
-      - name: deploy
-        uses: peaceiris/actions-gh-pages@v2.3.2
-        env:
-         ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-         PUBLISH_BRANCH: gh-pages
-         PUBLISH_DIR: ./build
+      - name: GitHub Pages action
+        uses: peaceiris/actions-gh-pages@v3.6.4
