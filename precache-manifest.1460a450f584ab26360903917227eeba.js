@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b88ebcf4933036a8aeb11e9dac722632",
+    "revision": "523e0ad0cd116a6d03e3831fb63b40cc",
     "url": "/cv-maker/index.html"
   },
   {
-    "revision": "759b759341e9794526b8",
-    "url": "/cv-maker/static/css/main.a20a1f55.chunk.css"
+    "revision": "6c6c2e113c2e0ee5ab40",
+    "url": "/cv-maker/static/css/main.5d2000e6.chunk.css"
   },
   {
-    "revision": "75d2aca68de8f9498565",
-    "url": "/cv-maker/static/js/2.56867518.chunk.js"
+    "revision": "568c7d3081e53cd943c4",
+    "url": "/cv-maker/static/js/2.5e13b924.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/cv-maker/static/js/2.56867518.chunk.js.LICENSE.txt"
+    "url": "/cv-maker/static/js/2.5e13b924.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "759b759341e9794526b8",
-    "url": "/cv-maker/static/js/main.ce4d897a.chunk.js"
+    "revision": "6c6c2e113c2e0ee5ab40",
+    "url": "/cv-maker/static/js/main.7db3b4d1.chunk.js"
   },
   {
     "revision": "d9a5075b48abfd890f05",
