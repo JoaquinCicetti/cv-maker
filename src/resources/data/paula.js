@@ -25,7 +25,7 @@ const data = {
   nationality: 'Argentinian',
   services: {
     title: 'Services',
-    data: ['Translations', 'Editing', 'Proofreading']
+    data: ['Translations', 'Editing', 'Proofreading', 'nvo']
   },
   specializations: {
     title: 'Specializations',
