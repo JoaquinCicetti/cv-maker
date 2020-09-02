@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/cv-maker/static/css/main.5d2000e6.chunk.css",
-    "main.js": "/cv-maker/static/js/main.7db3b4d1.chunk.js",
-    "main.js.map": "/cv-maker/static/js/main.7db3b4d1.chunk.js.map",
+    "main.js": "/cv-maker/static/js/main.35585846.chunk.js",
+    "main.js.map": "/cv-maker/static/js/main.35585846.chunk.js.map",
     "runtime-main.js": "/cv-maker/static/js/runtime-main.de3b8720.js",
     "runtime-main.js.map": "/cv-maker/static/js/runtime-main.de3b8720.js.map",
     "static/js/2.5e13b924.chunk.js": "/cv-maker/static/js/2.5e13b924.chunk.js",
     "static/js/2.5e13b924.chunk.js.map": "/cv-maker/static/js/2.5e13b924.chunk.js.map",
     "index.html": "/cv-maker/index.html",
-    "precache-manifest.1460a450f584ab26360903917227eeba.js": "/cv-maker/precache-manifest.1460a450f584ab26360903917227eeba.js",
+    "precache-manifest.b8e54383b3a5020bffe7f8972468eebe.js": "/cv-maker/precache-manifest.b8e54383b3a5020bffe7f8972468eebe.js",
     "service-worker.js": "/cv-maker/service-worker.js",
     "static/css/main.5d2000e6.chunk.css.map": "/cv-maker/static/css/main.5d2000e6.chunk.css.map",
     "static/js/2.5e13b924.chunk.js.LICENSE.txt": "/cv-maker/static/js/2.5e13b924.chunk.js.LICENSE.txt",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.de3b8720.js",
     "static/js/2.5e13b924.chunk.js",
     "static/css/main.5d2000e6.chunk.css",
-    "static/js/main.7db3b4d1.chunk.js"
+    "static/js/main.35585846.chunk.js"
   ]
 }
