@@ -20,20 +20,20 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@master
 
-      - name: setup node
+      - name: Setup node
         uses: actions/setup-node@v1
         with:
           node-version: '10.16'
 
-      - name: install
+      - name: Install
         run: yarn install
       
-      - name: build
+      - name: Build
         run: yarn build
 
-      - name: GitHub Pages action
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.6.4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./public
+          publish_branch: master
+          publish_dir: ./build
