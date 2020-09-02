@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8bfb8577b25a64cdcd28ae7bfd27b1b5",
+    "revision": "4793ae28e64859f2469a151a70758b01",
     "url": "/cv-maker/index.html"
   },
   {
-    "revision": "421fe3af83919f76a86b",
+    "revision": "bf5e810034c3b294d524",
     "url": "/cv-maker/static/css/main.eb817175.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cv-maker/static/js/2.56867518.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "421fe3af83919f76a86b",
-    "url": "/cv-maker/static/js/main.7a56bd28.chunk.js"
+    "revision": "bf5e810034c3b294d524",
+    "url": "/cv-maker/static/js/main.1cbfc25e.chunk.js"
   },
   {
     "revision": "d9a5075b48abfd890f05",
